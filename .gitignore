@@ -1,0 +1,43 @@
+# Compiled Firmware & IDE Build Artifacts (STM32CubeIDE / PlatformIO / VSCode)
+firmware/Debug/
+firmware/Release/
+firmware/build/
+firmware/.pio/
+*.o
+*.d
+*.su
+*.elf
+*.map
+*.lst
+*.pyc
+__pycache__/
+
+# Proteus Backup & User Workspace Files
+hardware/**/Project Backups/
+*.workspace
+*.DBK
+Last Loaded *
+Backup Of *
+
+# Word & Office Temp Files
+~$*.docx
+~$*.doc
+~$*.xlsx
+
+# LaTeX Build Artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
