@@ -82,6 +82,10 @@ Tối đa hóa hiệu suất thu thập năng lượng mặt trời thông qua c
 solar-tracker/
 ├── README.md                                        # Tài liệu tổng quan theo Requirement Forms
 ├── .gitignore                                       # Lọc file tạm build CubeMX / Proteus / LaTeX
+├── specs/
+│   ├── README.md                                    # Đặc tả thiết kế tổng quan & phân rã F1–F5
+│   ├── hardware_spec.md                             # Đặc tả phần cứng & kiểm thử phần cứng
+│   └── software_spec.md                             # Đặc tả phần mềm, giao diện & lưu đồ
 ├── hardware/
 │   ├── LinhKien.md                                  # Danh mục linh kiện chi tiết (1.280.000 VNĐ)
 │   ├── LinhKien.csv                                 # Bảng linh kiện xuất Excel (UTF-8)
@@ -97,6 +101,7 @@ solar-tracker/
     └── README.md                                    # Khu vực mã nguồn STM32F103C8T6 (đang triển khai)
 ```
 
+- **Đặc tả Hệ thống (Specs):** [Tổng quan (`specs/README.md`)](specs/README.md) | [Hardware Spec](specs/hardware_spec.md) | [Software Spec](specs/software_spec.md)
 - **Báo cáo đầy đủ (PDF Chương 1–3):** [report/Bao_Cao_EE3003_Nhom07_Ch1-Ch3.pdf](report/Bao_Cao_EE3003_Nhom07_Ch1-Ch3.pdf)
 - **Mã nguồn báo cáo LaTeX (Overleaf-ready):** [report/latex/main.tex](report/latex/main.tex)
 - **Mạch mô phỏng Proteus:** [hardware/proteus/machtest.pdsprj](hardware/proteus/machtest.pdsprj)
