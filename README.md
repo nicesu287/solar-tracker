@@ -48,7 +48,7 @@ Tối đa hóa hiệu suất thu thập năng lượng mặt trời thông qua c
 ### 7. Manufacturing Costs
 - **Ngân sách vật tư dự kiến:** `1.000.000 – 1.500.000 VNĐ` (tổng dự toán thực tế: **`1.280.000 VNĐ`**).
 - **Linh kiện chính:** Vi điều khiển `STM32F103C8T6`, tấm pin `Waveshare 18V–10W`, `LM2596`, `2× TP4056` (bảo vệ `DW01A`), `XL6009`, `2× Servo MG996R` (`20 kg·cm`), `6× pin 18650`, `OLED 0.96" I2C`, `Relay 5V` và linh kiện thụ động (`2N2222`, `1N4007`, tụ `1000 µF`, trở, nút nhấn).
-- Xem bảng kê chi tiết 15 hạng mục tại **[hardware/BOM.md](hardware/BOM.md)** hoặc mở trực tiếp **[hardware/BOM.csv](hardware/BOM.csv)**.
+- Xem bảng kê chi tiết 15 hạng mục tại **[hardware/LinhKien.md](hardware/LinhKien.md)** hoặc mở trực tiếp **[hardware/LinhKien.csv](hardware/LinhKien.csv)**.
 
 ### 8. Power
 - **Nguồn thu:** 1 tấm quang điện đa tinh thể `Waveshare 18V–10W` (~`34 cm`).
@@ -83,8 +83,8 @@ solar-tracker/
 ├── README.md                                        # Tài liệu tổng quan theo Requirement Forms
 ├── .gitignore                                       # Lọc file tạm build CubeMX / Proteus / LaTeX
 ├── hardware/
-│   ├── BOM.md                                       # Danh mục linh kiện chi tiết (1.280.000 VNĐ)
-│   ├── BOM.csv                                      # Bảng BOM xuất Excel (UTF-8)
+│   ├── LinhKien.md                                  # Danh mục linh kiện chi tiết (1.280.000 VNĐ)
+│   ├── LinhKien.csv                                 # Bảng linh kiện xuất Excel (UTF-8)
 │   ├── proteus/
 │   │   └── machtest.pdsprj                          # Sơ đồ nguyên lý mô phỏng Proteus 8
 │   └── diagrams/
@@ -100,7 +100,7 @@ solar-tracker/
 - **Báo cáo đầy đủ (PDF Chương 1–3):** [report/Bao_Cao_EE3003_Nhom07_Ch1-Ch3.pdf](report/Bao_Cao_EE3003_Nhom07_Ch1-Ch3.pdf)
 - **Mã nguồn báo cáo LaTeX (Overleaf-ready):** [report/latex/main.tex](report/latex/main.tex)
 - **Mạch mô phỏng Proteus:** [hardware/proteus/machtest.pdsprj](hardware/proteus/machtest.pdsprj)
-- **Danh mục linh kiện (BOM):** [hardware/BOM.md](hardware/BOM.md) | [hardware/BOM.csv](hardware/BOM.csv)
+- **Danh mục linh kiện:** [hardware/LinhKien.md](hardware/LinhKien.md) | [hardware/LinhKien.csv](hardware/LinhKien.csv)
 
 ---
 

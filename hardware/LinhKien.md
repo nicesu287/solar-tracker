@@ -34,4 +34,4 @@
 - **Nối đất hình sao (`Star Ground`):** Gom dây `GND` dòng cao của Servo về thẳng cực âm tụ `1000 µF`/nguồn chính, tách riêng với `GND` tín hiệu `LDR` và `OLED` để tránh nhiễu.
 - **Dây dẫn công suất:** Sử dụng dây tiết diện tối thiểu `20 AWG` cho đường pin `18650`, `LM2596`, `XL6009` và nguồn `5V` cấp `2× Servo MG996R`.
 
-> Bản Excel/CSV tương ứng: [BOM.csv](BOM.csv)
+> Bản Excel/CSV tương ứng: [LinhKien.csv](LinhKien.csv)
