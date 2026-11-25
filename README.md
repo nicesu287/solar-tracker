@@ -21,7 +21,7 @@ Hệ thống tích trữ năng lượng mặt trời tích hợp bám sáng tự
 | **Biến đổi & Quản lý nguồn** | Buck `LM2596` (`18V → 5V / 3A`), `2× TP4056` (`1A CC/CV + DW01A`), Boost `XL6009` (`3.7V → 5V`) |
 | **Lưu trữ & Nuôi hệ thống** | `4× 18650` High-Drain (lưu trữ đầu ra độc lập) + `2× 18650` (cấp qua `XL6009` nuôi hệ thống) |
 | **Cách ly tải & Hiển thị** | `Relay 5V` (`PB0 → 1 kΩ → 2N2222 + 1N4007`) + tụ `1000 µF / 16V`; `OLED 0.96" I2C (SSD1306)` |
-| **Kích thước & Dự toán BOM** | `250 × 250 × 400 mm`, khối lượng `2.0 – 2.5 kg`; tổng BOM phần cứng **`1.280.000 VNĐ`** |
+| **Kích thước & Dự toán BOM** | `250 × 250 × 400 mm`, khối lượng `2.0 – 2.5 kg`; tổng BOM phần cứng **`1.280.000 VNĐ`** ([hardware/BOM.md](hardware/BOM.md)) |
 
 ---
 
@@ -57,6 +57,8 @@ solar-tracker/
 ├── README.md
 ├── .gitignore
 ├── hardware/
+│   ├── BOM.md                                       # Danh mục linh kiện phần cứng (1.280.000 VNĐ)
+│   ├── BOM.csv                                      # Bảng BOM xuất Excel (UTF-8)
 │   ├── proteus/
 │   │   └── machtest.pdsprj                          # File mô phỏng nguyên lý Proteus
 │   └── diagrams/

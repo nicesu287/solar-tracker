@@ -1,0 +1,17 @@
+﻿STT,Ref Des,Hạng mục,Mô tả / Thông số,SL,Đơn giá (VNĐ),Thành tiền (VNĐ)
+1,U1,Vi điều khiển trung tâm,"STM32F103C8T6 Blue Pill (Cortex-M3 72MHz, 64KB Flash, 20KB SRAM)",1,65000,65000
+2,STLINK,Mạch nạp & gỡ lỗi,Mạch nạp ST-Link V2 Mini (giao tiếp SWD),1,55000,55000
+3,B1,Tấm pin năng lượng mặt trời,Waveshare Polycrystalline 18V - 10W (cạnh ~34 cm),1,240000,240000
+4,"M1, M2",Động cơ Servo bám sáng,"Servo MG996R công suất lớn 20 kg.cm (Pan 0°-180°, Tilt 0°-90°)",2,95000,190000
+5,OLED1,Màn hình hiển thị,"OLED 0.96 inch I2C (SSD1306, 128x64, địa chỉ 0x3C / 0x78)",1,65000,65000
+6,U2,Mạch hạ áp DC-DC,"Module Buck LM2596 (18V -> 5V, tối đa 3A)",1,25000,25000
+7,"U3, U4",Mạch sạc pin Li-ion,Module sạc TP4056 1A tích hợp IC bảo vệ DW01A,2,15000,30000
+8,U5,Mạch tăng áp DC-DC,Module Boost XL6009 (nâng áp khối 2x 18650 3.7V -> 5V nuôi mạch & Servo),1,30000,30000
+9,BT1..BT4,Pin sạc lưu trữ đầu ra,"Cell Li-ion 18650 High-Drain (3.7V-4.2V, 2500mAh - Output độc lập)",4,55000,220000
+10,"BT5, BT6",Pin nguồn nuôi hệ thống,"Cell Li-ion 18650 (cấp vào XL6009 nuôi STM32, OLED & 2x Servo)",2,45000,90000
+11,"BH1, BH2",Đế pin 18650,Đế 4 cell + Đế 2 cell 18650 (dây ra 20 AWG),2,20000,40000
+12,"RL1, Q1, D1, C1",Khối kích Relay & lọc nguồn,Relay 5V + BJT 2N2222 + Diode 1N4007 + Tụ 1000uF/16V,1 bộ,25000,25000
+13,"LDR, R, SW",Cảm biến & thụ động,"4x LDR GL5528, trở 10k/100k/4.7k/1kOhm, tụ 10nF, 2 nút nhấn",1 bộ,35000,35000
+14,"J, WIRE","Đầu nối, bo & dây dẫn","PCB/Testboard đồng, Header 2.54mm, Domino KF301, dây động lực",1 bộ,50000,50000
+15,MECH,Khung cơ khí & gá Pan-Tilt,Giá đỡ Pan-Tilt hợp kim + đế 250x250x400 mm & vách chữ thập,1 bộ,120000,120000
+Tổng,,Tổng chi phí dự toán (BOM),Đạt định mức ngân sách 1.000.000 - 1.500.000 VNĐ,,,1280000
